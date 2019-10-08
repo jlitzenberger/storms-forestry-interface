@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Forestry.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ContentApplicationName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ForestryStormsOutbound</Value>
+    </Setting>
+    <Setting Name="ContentUserId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxx</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/Energy-Delivery/ManagedWorkOrder/api/</Value>
+    </Setting>
+    <Setting Name="MqApiUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/enterprise/messaging/v2/queues/</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderApiResourse_IfExceptionConditions" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1/work-requests/{workRequestId}/ifexception-conditions</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderApiResourse_MilestoneRequirements" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1/work-requests/{workRequestId}/milestone-requirements</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderApiResourse_WorkRequest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1/work-requests/{workRequestId}</Value>
+    </Setting>
+    <Setting Name="RemedyUriHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://xxxxx/enterprise/service-management</Value>
+    </Setting>
+    <Setting Name="RemedyUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/v1/incidents/</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderApiResourse_WorkRequestTrackings" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1/work-requests/{workRequestId}/trackings</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderUriHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxx</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderApiResourse_MilestoneRequirement" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1/work-requests/{workRequestId}/milestone-requirements/{id}</Value>
+    </Setting>
+    <Setting Name="Env" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEV</Value>
+    </Setting>
+    <Setting Name="ManagedWorkOrderUriCredentials" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxx</Value>
+    </Setting>
+    <Setting Name="MqApiUriHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://xxxxx</Value>
+    </Setting>
+    <Setting Name="STORMS_EntityFrameworkConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=xxxxx; password=xxxxx; user id=xxxxx</Value>
+    </Setting>
+    <Setting Name="RemedyUriCredentials" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxx</Value>
+    </Setting>
+    <Setting Name="MqApiUriCredentials" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
